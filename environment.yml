@@ -1,0 +1,19 @@
+name: null
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - ccache
+  - cmake
+  - cudatoolkit-dev
+  - cudatoolkit=11.8
+  - cudnn
+  - jupyterlab
+  - mpi4py # installs cuda-aware openmpi
+  - nccl
+  - openmpi
+  - pip
+  - python=3.8
