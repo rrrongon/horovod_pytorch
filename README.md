@@ -1,4 +1,6 @@
 # horovod_pytorch
+sudo chmod +x install.sh
+./install.sh
 
 Installating horovod has been a challenge in revent days. There are conda or Pip, yet those can not help you much. Because, starting from cmake, cuda version, not having nvcc in the cuda toolkit, MPI_CXX not found, libcudart.so not found, there can be hundreds of issures. As a researcher it is hard to focuus on these system issues. Soon, these system errors can dive you into frustration. You are supposed to focus on implementing something using horovod and now stuck into setting up the installing horovod forever. That's how I came into sharing the installation guide. Now, you can ask, there are horovod insttalation guide given in their website why this! Good question. However, answe is simple. Horovod installation guide probably does not update frequestly. There is performance gap between horovod development pace and pytorch development pace ended up horovod can not work with updated pytorch anymore. I will describe few issues that I have faced over the time and solution.
 
